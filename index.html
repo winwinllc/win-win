@@ -21,7 +21,7 @@
       text-align: center;
     }
     h1 {
-      margin-bottom: 16px;
+      margin-bottom: 20px;
       font-size: 28px;
       color: #222;
     }
@@ -37,8 +37,31 @@
     a:hover {
       text-decoration: underline;
     }
+
+    /* BUTTON STYLES */
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin: 12px 0;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #fff;
+    }
+    .btn-call {
+      background-color: #28a745;
+    }
+    .btn-fax {
+      background-color: #6c757d;
+    }
+    .btn-email {
+      background-color: #007bff;
+    }
+
     .footer {
-      margin-top: 24px;
+      margin-top: 28px;
       font-size: 13px;
       color: #777;
     }
@@ -48,17 +71,10 @@
   <div class="container">
     <h1>Win-Win Investments LLC</h1>
 
-    <p>📞 Phone: <a href="tel:16787108312">(678) 710-8312</a></p>
-    <p>📠 Fax: (678) 710-8313</p>
-    <p>✉️ Email: <a href="mailto:admin@win-winllc.com">admin@win-winllc.com</a></p>
-    <p>📍 Address:<br>
-      3050 Five Forks Trickum Rd. #586<br>
-      Lilburn, GA 30047
-    </p>
+    <!-- CLICK TO CALL / EMAIL BUTTONS -->
+    <a class="btn btn-call" href="tel:16787108312">📞 Call (678) 710-8312</a>
+    <a class="btn btn-fax" href="tel:16787108313">📠 Fax (678) 710-8313</a>
+    <a class="btn btn-email" href="mailto:admin@win-winllc.com">✉️ Email Us</a>
 
-    <div class="footer">
-      © Win-Win Investments LLC
-    </div>
-  </div>
-</body>
-</html>
+    <p>📍 Address:<br>
+      3050 Five Forks Trickum Rd. #5
