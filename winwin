@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Win-Win Investments LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 80px auto;
+      background: #ffffff;
+      padding: 32px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 16px;
+      font-size: 28px;
+      color: #222;
+    }
+    p {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #444;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 24px;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Win-Win Investments LLC</h1>
+
+    <p>📞 Phone: <a href="tel:16787108312">(678) 710-8312</a></p>
+    <p>📠 Fax: (678) 710-8313</p>
+    <p>✉️ Email: <a href="mailto:admin@win-winllc.com">admin@win-winllc.com</a></p>
+    <p>📍 Address:<br>
+      3050 Five Forks Trickum Rd. #586<br>
+      Lilburn, GA 30047
+    </p>
+
+    <div class="footer">
+      © Win-Win Investments LLC
+    </div>
+  </div>
+</body>
+</html>
